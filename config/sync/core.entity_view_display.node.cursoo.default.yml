@@ -1,0 +1,52 @@
+uuid: 4d5ed677-850a-499e-ad41-5c91cb903a25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cursoo.body
+    - field.field.node.cursoo.field_category
+    - field.field.node.cursoo.field_programa
+    - field.field.node.cursoo.field_titulo_curso
+    - node.type.cursoo
+  module:
+    - file
+    - text
+    - user
+id: node.cursoo.default
+targetEntityType: node
+bundle: cursoo
+mode: default
+content:
+  body:
+    type: text_default
+    weight: 2
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_category:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_programa:
+    weight: 1
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_titulo_curso:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  links: true

@@ -1,0 +1,30 @@
+uuid: efc21b31-f88f-4d3f-a5ab-d44d1388b8ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cursoo.body
+    - node.type.cursoo
+  module:
+    - text
+    - user
+id: node.cursoo.teaser
+targetEntityType: node
+bundle: cursoo
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,32 @@
+uuid: de510d2a-605e-415b-8233-9fab448f4010
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.cursos
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__cursos_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:cursos-block_1'
+settings:
+  id: 'views_block:cursos-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      cursoo: cursoo
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

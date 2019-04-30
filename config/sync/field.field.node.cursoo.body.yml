@@ -1,0 +1,22 @@
+uuid: eba22caa-255b-4daa-a842-0729b24a3c89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.cursoo
+  module:
+    - text
+id: node.cursoo.body
+field_name: body
+entity_type: node
+bundle: cursoo
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

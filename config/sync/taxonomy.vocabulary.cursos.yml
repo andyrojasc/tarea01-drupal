@@ -1,0 +1,9 @@
+uuid: b4d8f02f-5fa7-4418-8489-dbf5ea81bbce
+langcode: en
+status: true
+dependencies: {  }
+name: Cursos
+vid: cursos
+description: Cursos
+hierarchy: 0
+weight: 0

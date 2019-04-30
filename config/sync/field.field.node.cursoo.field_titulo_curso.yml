@@ -1,0 +1,19 @@
+uuid: 4840d1ca-9afe-4720-8364-fca50d28fe83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo_curso
+    - node.type.cursoo
+id: node.cursoo.field_titulo_curso
+field_name: field_titulo_curso
+entity_type: node
+bundle: cursoo
+label: Titulo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

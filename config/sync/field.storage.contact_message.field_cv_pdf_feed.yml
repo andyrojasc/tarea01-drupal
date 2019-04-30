@@ -1,0 +1,23 @@
+uuid: ebba0b33-925d-471d-af85-c761a987c6f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - file
+id: contact_message.field_cv_pdf_feed
+field_name: field_cv_pdf_feed
+entity_type: contact_message
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

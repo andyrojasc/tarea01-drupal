@@ -1,0 +1,15 @@
+uuid: 63a4cc14-fb42-4c5b-9a67-31f063c2bf60
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cursos
+id: taxonomy_term.cursos.default
+targetEntityType: taxonomy_term
+bundle: cursos
+mode: default
+content: {  }
+hidden:
+  description: true
+  name: true
+  path: true

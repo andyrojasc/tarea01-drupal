@@ -1,0 +1,9 @@
+uuid: 41dbef49-8e44-494f-9f00-9b3b260052a4
+langcode: en
+status: true
+dependencies: {  }
+name: 'Cursos U'
+vid: cursos_u
+description: ''
+hierarchy: 0
+weight: 0

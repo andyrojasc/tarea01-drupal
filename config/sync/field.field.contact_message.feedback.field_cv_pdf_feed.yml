@@ -1,0 +1,27 @@
+uuid: 8faf9566-fda5-416a-97d6-fcbd4a3ae738
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_cv_pdf_feed
+  module:
+    - file
+id: contact_message.feedback.field_cv_pdf_feed
+field_name: field_cv_pdf_feed
+entity_type: contact_message
+bundle: feedback
+label: 'CV PDF'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf'
+  max_filesize: '20 MB'
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

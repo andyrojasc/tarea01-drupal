@@ -1,0 +1,21 @@
+uuid: f2165688-a143-4701-8c76-64c013902f39
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_titulo_curso
+field_name: field_titulo_curso
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
